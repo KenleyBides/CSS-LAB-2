@@ -4,7 +4,7 @@ const carouselCars = document.querySelector("#carouselExample");
 
 const carousel = new bootstrap.Carousel(carouselCars, {
     interval: 5000, // STEP 16: Change the interval to 5 seconds
-    wrap: false
+    wrap: false,
     // Lab 2 
     keyboard: false
 });
